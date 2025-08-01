@@ -1,0 +1,1107 @@
+{
+  "version": 2,
+  "warnings": [
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 119,
+          "endLine": 119,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -808324303,
+            "currentLine": 43407401,
+            "nextLine": 884777,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 100,
+          "endLine": 100,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'n.table'. Check lines: 119, 100.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 146,
+          "endLine": 146,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1614440865,
+            "currentLine": 2107753229,
+            "nextLine": 384879393,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 145,
+          "endLine": 145,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'entry'. Check lines: 146, 145.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 261,
+          "endLine": 261,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 144347,
+            "nextLine": 1148197,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 259,
+          "endLine": 259,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'iter'. Check lines: 261, 259.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 136,
+          "endLine": 136,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2916493,
+            "currentLine": 134377697,
+            "nextLine": -219092036,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 137,
+          "endLine": 137,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 134377697,
+            "currentLine": -219092036,
+            "nextLine": 744474815,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 138,
+          "endLine": 138,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -219092036,
+            "currentLine": 744474815,
+            "nextLine": 401904744,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 139,
+          "endLine": 139,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 744474815,
+            "currentLine": 401904744,
+            "nextLine": -532215388,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 140,
+          "endLine": 140,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 401904744,
+            "currentLine": -532215388,
+            "nextLine": 1594517577,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 141,
+          "endLine": 141,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -532215388,
+            "currentLine": 1594517577,
+            "nextLine": 1583831249,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 142,
+          "endLine": 142,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1594517577,
+            "currentLine": 1583831249,
+            "nextLine": -1101642983,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sockcompat.c",
+          "line": 143,
+          "endLine": 143,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1583831249,
+            "currentLine": -1101642983,
+            "nextLine": -473876741,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'errcode' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V595",
+      "cwe": 476,
+      "sastId": "CERT-EXP12-C",
+      "level": 1,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 188,
+          "endLine": 188,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -213475497,
+            "currentLine": 23,
+            "nextLine": 1422073,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 213,
+          "endLine": 213,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'value' pointer was utilized before it was verified against nullptr. Check lines: 188, 213.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V566",
+      "cwe": 587,
+      "sastId": "CERT-INT36-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 281,
+          "endLine": 281,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 3053,
+            "currentLine": -1037682829,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The integer constant is converted to pointer. Possibly an error or a bad coding style: (void *) 3",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V560",
+      "cwe": 570,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 325,
+          "endLine": 325,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -31854445,
+            "nextLine": 1006330674,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "A part of conditional expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V566",
+      "cwe": 587,
+      "sastId": "CERT-INT36-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 336,
+          "endLine": 336,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 539,
+            "currentLine": 203580198,
+            "nextLine": 45797,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The integer constant is converted to pointer. Possibly an error or a bad coding style: (void *) 4",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V566",
+      "cwe": 587,
+      "sastId": "CERT-INT36-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 345,
+          "endLine": 345,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 539,
+            "currentLine": 1628642861,
+            "nextLine": 45797,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The integer constant is converted to pointer. Possibly an error or a bad coding style: (void *) 1",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V560",
+      "cwe": 570,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 393,
+          "endLine": 393,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 759495948,
+            "nextLine": 1006330674,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "A part of conditional expression is always false.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V560",
+      "cwe": 570,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 393,
+          "endLine": 393,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 759495948,
+            "nextLine": 1006330674,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "A part of conditional expression is always false: elements > 0xffffffffffffffffui64.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V566",
+      "cwe": 587,
+      "sastId": "CERT-INT36-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\read.c",
+          "line": 403,
+          "endLine": 403,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 539,
+            "currentLine": 203580198,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The integer constant is converted to pointer. Possibly an error or a bad coding style: (void *) 4",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1059",
+      "cwe": 0,
+      "sastId": "CERT-DCL51-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\win32.h",
+          "line": 20,
+          "endLine": 20,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 61549,
+            "currentLine": 37281031,
+            "nextLine": 100,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'va_copy' macro name overrides a reserved name from C standard. This may lead to undefined behavior.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1059",
+      "cwe": 0,
+      "sastId": "CERT-DCL51-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\win32.h",
+          "line": 24,
+          "endLine": 24,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 124254,
+            "currentLine": 21370974,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'snprintf' macro name overrides a reserved name from C standard. This may lead to undefined behavior.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V701",
+      "cwe": 401,
+      "sastId": "CERT-WIN30-C, CERT-MEM51-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 163,
+          "endLine": 163,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -1021315291,
+            "currentLine": 1073099581,
+            "nextLine": 80919,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "realloc() possible leak: when realloc() fails in allocating memory, original pointer 'sh' is lost. Consider assigning realloc() to a temporary pointer.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 164,
+          "endLine": 164,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1073099581,
+            "currentLine": 80919,
+            "nextLine": 707059,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 163,
+          "endLine": 163,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'sh'. Check lines: 164, 163.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V1048",
+      "cwe": 1164,
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 463,
+          "endLine": 463,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 5918129,
+            "currentLine": 515412842,
+            "nextLine": 2135002707,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'f' variable was assigned the same value.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V769",
+      "cwe": 119,
+      "sastId": "CERT-EXP08-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 474,
+          "endLine": 474,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 254980349,
+            "currentLine": -1021315291,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 's' pointer in the 's - (sizeof (struct sdshdr))' expression could be nullptr. In such case, resulting value will be senseless and it should not be used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 914,
+          "endLine": 914,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": -573443077,
+            "currentLine": 182064355,
+            "nextLine": 23897,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 913,
+          "endLine": 913,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'vector'. Check lines: 914, 913.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V701",
+      "cwe": 401,
+      "sastId": "CERT-WIN30-C, CERT-MEM51-CPP",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\sds.c",
+          "line": 913,
+          "endLine": 913,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1412921003,
+            "currentLine": -573443077,
+            "nextLine": 182064355,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "realloc() possible leak: when realloc() fails in allocating memory, original pointer 'vector' is lost. Consider assigning realloc() to a temporary pointer.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V576",
+      "cwe": 628,
+      "sastId": "CERT-FIO47-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\hiredis.c",
+          "line": 473,
+          "endLine": 473,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 41732957,
+            "currentLine": -1026110110,
+            "nextLine": 79907829,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "Incorrect format. Consider checking the third actual argument of the 'sprintf' function. The integer argument of 32-bit size is expected.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V575",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 1,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\hiredis.c",
+          "line": 504,
+          "endLine": 504,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2769141,
+            "currentLine": 37985,
+            "nextLine": 0,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The null pointer is passed into 'free' function. Inspect the first argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V597",
+      "cwe": 14,
+      "sastId": "CERT-MSC06-C",
+      "level": 1,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\hiredis.c",
+          "line": 692,
+          "endLine": 692,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": -1641216139,
+            "nextLine": 9685,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The compiler could delete the 'memset' function call, which is used to flush 'c' object. The RtlSecureZeroMemory() function should be used to erase the private data.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V560",
+      "cwe": 570,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\net.c",
+          "line": 232,
+          "endLine": 232,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": 1481981809,
+            "nextLine": 269463,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "A part of conditional expression is always false: msec > 2147483647.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V575",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\net.c",
+          "line": 369,
+          "endLine": 369,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -128723643,
+            "nextLine": 125,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The potential null pointer is passed into 'memcpy' function. Inspect the first argument.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V575",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\net.c",
+          "line": 451,
+          "endLine": 451,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 261165669,
+            "currentLine": -524514775,
+            "nextLine": 1912686899,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\net.c",
+          "line": 450,
+          "endLine": 450,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The potential null pointer is passed into 'memcpy' function. Inspect the first argument. Check lines: 451, 450.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V547",
+      "cwe": 571,
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\net.c",
+          "line": 488,
+          "endLine": 488,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 125,
+            "currentLine": 192041,
+            "nextLine": 284801,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "Expression 'p == NULL' is always true.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V575",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 63,
+          "endLine": 63,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 1104058909,
+            "currentLine": -993748455,
+            "nextLine": 44239,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 62,
+          "endLine": 62,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The potential null pointer is passed into 'memcpy' function. Inspect the first argument. Check lines: 63, 62.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 628,
+      "sastId": "CERT-EXP37-C",
+      "level": 2,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\dict.c",
+          "line": 270,
+          "endLine": 270,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 21309,
+            "currentLine": 186184489,
+            "nextLine": 574161,
+            "columns": 0
+          }
+        },
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 282,
+          "endLine": 282,
+          "column": 1,
+          "endColumn": 2147483647
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "Dereferencing of the null pointer 'iter' might take place. The potential null pointer is passed into 'dictNext' function. Inspect the first argument. Check lines: 'dict.c:270', 'async.c:282'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V769",
+      "cwe": 119,
+      "sastId": "CERT-EXP08-C",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 632,
+          "endLine": 632,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 38953,
+            "currentLine": 99,
+            "nextLine": 22752251,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "The 'p' pointer in the 'p + 2' expression could be nullptr. In such case, resulting value will be senseless and it should not be used.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 663,
+          "endLine": 663,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 2490473,
+            "currentLine": 40760261,
+            "nextLine": 1404289716,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'p'.",
+      "favorite": false,
+      "falseAlarm": false
+    },
+    {
+      "code": "V522",
+      "cwe": 690,
+      "sastId": "CERT-MEM52-CPP",
+      "level": 3,
+      "positions": [
+        {
+          "file": "D:\\code\\vs2010-hiredis\\hirediss\\src\\async.c",
+          "line": 765,
+          "endLine": 765,
+          "column": 1,
+          "endColumn": 2147483647,
+          "navigation": {
+            "previousLine": 0,
+            "currentLine": -821846013,
+            "nextLine": -1643689558,
+            "columns": 0
+          }
+        }
+      ],
+      "projects": [
+        "hirediss"
+      ],
+      "message": "There might be dereferencing of a potential null pointer 'ac->c.timeout'.",
+      "favorite": false,
+      "falseAlarm": false
+    }
+  ]
+}

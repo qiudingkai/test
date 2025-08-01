@@ -1,0 +1,91 @@
+﻿生成启动时间为 2023/2/21 11:43:08。
+     1>项目“E:\code\hirediss\hirediss\hirediss.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\hirediss.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HIREDISS_EXPORTS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"x64\Release\hirediss.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HIREDISS_EXPORTS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HIREDISS_EXPORTS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt hirediss.cpp
+         hirediss.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D HIREDISS_EXPORTS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt src\async.c src\dict.c src\hiredis.c src\net.c src\read.c src\sds.c src\sockcompat.c
+         async.c
+     1>src\async.c(55): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\async.c(71): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\async.c(72): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\async.c(395): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>src\async.c(402): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>src\async.c(668): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+     1>src\async.c(690): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+     1>src\async.c(698): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(248) : 参见“strnicmp”的声明
+         dict.c
+         hiredis.c
+     1>src\hiredis.c(307): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\hiredis.c(456): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\hiredis.c(471): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>src\hiredis.c(473): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>src\hiredis.c(475): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\hiredis.c(583): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+     1>src\hiredis.c(609): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\hiredis.c(617): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>src\hiredis.c(620): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>src\hiredis.c(622): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+         net.c
+     1>src\net.c(170): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>src\net.c(275): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+     1>src\net.c(324): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+     1>src\net.c(328): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+     1>src\net.c(361): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 参见“strdup”的声明
+     1>src\net.c(386): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 参见“strdup”的声明
+     1>src\net.c(434): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+     1>src\net.c(442): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>src\net.c(454): warning C4267: “函数”: 从“size_t”转换到“socklen_t”，可能丢失数据
+     1>src\net.c(490): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+         read.c
+     1>src\read.c(123): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\read.c(213): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>src\read.c(229): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>src\read.c(317): warning C4267: “=”: 从“size_t”转换到“unsigned long”，可能丢失数据
+     1>src\read.c(340): warning C4244: “+=”: 从“__int64”转换到“unsigned long”，可能丢失数据
+     1>src\read.c(426): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>src\read.c(613): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+         sds.c
+     1>src\sds.c(396): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(354) : 参见“vsnprintf”的声明
+         sockcompat.c
+     1>src\sockcompat.c(215): warning C4090: “初始化”: 不同的“const”限定符
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\code\hirediss\x64\Release\hirediss.lib" /NOLOGO /LTCG x64\Release\dllmain.obj
+         x64\Release\hirediss.obj
+         x64\Release\async.obj
+         x64\Release\dict.obj
+         x64\Release\hiredis.obj
+         x64\Release\net.obj
+         x64\Release\read.obj
+         x64\Release\sds.obj
+         x64\Release\sockcompat.obj
+         x64\Release\stdafx.obj
+         hirediss.vcxproj -> E:\code\hirediss\x64\Release\hirediss.lib
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\hirediss.unsuccessfulbuild”。
+         正在对“x64\Release\hirediss.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\code\hirediss\hirediss\hirediss.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.33
